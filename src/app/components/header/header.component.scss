@@ -1,0 +1,24 @@
+.navHeader{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(255,108,0); 
+    height: 54px;
+    align-items: center;
+}
+
+.img{
+    width: 104px;
+}
+.navHeader-ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 326px;
+    margin:0px;
+
+}
+
+.navHeader-head{
+    text-decoration: none;
+    color: white;
+}

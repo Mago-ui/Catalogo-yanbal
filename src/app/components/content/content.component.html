@@ -1,0 +1,40 @@
+<div class="grid">
+    <div class="item" *ngFor="let item of data">
+        <div><img class="img" [src]="item.images[0]"/></div>
+        <div>
+            <p>
+                {{item.title}}
+            </p>
+            <span>{{item.price}}</span>
+            <p>
+                {{item.description}}
+
+                
+            </p>
+        </div>
+    </div>
+    <div class="item">
+        <div>img</div>
+        <div>
+            <p>
+                titulo
+            </p>
+            <span>precio</span>
+            <p>
+                descripción
+            </p>
+        </div>
+    </div>
+    <div class="item">
+        <div>img</div>
+        <div>
+            <p>
+                titulo
+            </p>
+            <span>precio</span>
+            <p>
+                descripción
+            </p>
+        </div>
+    </div>
+</div>
